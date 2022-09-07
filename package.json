@@ -1,0 +1,25 @@
+{
+  "name": "e2e-lifebase",
+  "version": "1.0.0",
+  "description": "tests e2e on the JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/danielham/e2e-olx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/danielham/e2e-olx/issues"
+  },
+  "homepage": "https://gitlab.com/danielham/e2e-olx#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "@playwright/test": "^1.25.0",
+    "playwright": "^1.25.0",
+    "undici": "^5.10.0"
+  }
+}
